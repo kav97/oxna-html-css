@@ -1,0 +1,34 @@
+/* universal selector */
+* {
+    font-family: 'Poiret One', cursive;
+}
+
+/* element selector */
+h1{
+    color:dodgerblue;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+p {
+    background-color: pink;
+}
+
+/* class selector */
+.penguin {
+    background-color: goldenrod;
+}
+
+/* id selector */
+#unique-id {
+    border: 5px dashed salmon;
+}
+
+.penguin:hover {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+#unique-id:hover {
+    background-color: green;
+    text-decoration-line: underline;
+  }

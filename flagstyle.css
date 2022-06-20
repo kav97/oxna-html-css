@@ -1,0 +1,62 @@
+.german-top {
+    height: 60px;
+    background-color: black;
+}
+ 
+.german-middle {
+    height: 60px;
+    background-color: red;
+}
+ 
+.german-bottom {
+    height: 60px;
+    background-color: yellow;
+}
+
+#german-flag:hover .german-top {
+    background-color: red;
+}
+
+#german-flag:hover .german-middle {
+    background-color: white;
+}
+
+#german-flag:hover .german-bottom {
+    background-color: green;
+}
+
+#french-flag {
+    background-color: white;
+}
+
+.french-left {
+    content: "";
+    width: 33%;
+    height: 180px;
+    background-color: blue;
+    float: left;
+}
+
+.french-middle {
+    content: "";
+    width: 33%;
+    height: 180px;
+    background-color: white;
+    float: left;
+}
+
+.french-right {
+    content: "";
+    width: 33%;
+    height: 180px;
+    background-color: red;
+    float: left;
+}
+
+#french-flag:hover .french-left{
+    background-color: green;
+}
+
+#french-flag:hover .french-right{
+    background-color: orange;
+}
